@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alpha & Bintou · Nous nous marions · 27 & 28 novembre 2026</title>
+<meta name="description" content="Alpha & Bintou se marient à Conakry. Programme, lieux et confirmation de présence.">
+<meta name="theme-color" content="#702D45">
+<meta property="og:title" content="Alpha & Bintou se marient 💍">
+<meta property="og:description" content="27 & 28 novembre 2026 · Conakry, Guinée. Confirmez votre présence.">
+<meta property="og:image" content="https://VOTRE-SITE.alwaysdata.net/apercu.jpg">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bordeaux:#702D45; --bordeaux-dark:#55202f; --or:#C9A96E; --or-clair:#e8d6b0;
+    --creme:#faf6f0; --sable:#f3ebe0; --texte:#3b2a2f; --gris:#7a6a6f;
+    --serif:'Cormorant Garamond', Georgia, serif; --sans:'Montserrat', system-ui, sans-serif;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:var(--sans);color:var(--texte);background:var(--creme);line-height:1.65;overflow-x:hidden}
+  a{color:inherit}
+  svg{display:block}
+
+  /* ---------- En-tête ---------- */
+  header{position:fixed;top:0;left:0;right:0;z-index:50;display:flex;justify-content:space-between;align-items:center;
+    padding:14px 18px;transition:background .3s, box-shadow .3s}
+  header.scrolled{background:rgba(60,32,42,.93);backdrop-filter:blur(8px);box-shadow:0 2px 14px rgba(0,0,0,.25)}
+  .monogramme{color:#fff;line-height:1;text-decoration:none}
+  .monogramme .lettres{font-family:var(--serif);font-size:2.2rem}
+  .monogramme .lettres span{color:var(--or);font-style:italic;margin:0 1px}
+  .monogramme .date{font-size:.78rem;letter-spacing:.32em;margin-top:6px}
+  .btn{display:inline-block;background:var(--bordeaux);color:#fff;text-decoration:none;border:1px solid var(--or-clair);
+    padding:12px 16px;font-family:var(--sans);font-weight:600;font-size:.88rem;cursor:pointer;transition:background .2s, transform .2s}
+  .btn:hover{background:var(--bordeaux-dark)}
+  .btn:active{transform:scale(.98)}
+
+  /* ---------- Accueil ---------- */
+  .hero{position:relative;min-height:100vh;min-height:100svh;display:flex;align-items:center;justify-content:center;
+    padding:105px 16px 36px;color:#fff;text-align:center;overflow:hidden;background:#4a3036}
+  .hero-fond{position:absolute;inset:0;width:100%;height:100%}
+  .hero-voile{position:absolute;inset:0;background:linear-gradient(180deg,rgba(50,28,36,.35),rgba(50,28,36,.55) 60%,rgba(40,22,30,.8))}
+  .cadre{position:relative;width:100%;max-width:640px;border:1px solid rgba(201,169,110,.5);padding:64px 14px 40px}
+  .cadre::before{content:"";position:absolute;inset:7px;border:1px solid rgba(201,169,110,.2);pointer-events:none}
+  .surtitre{color:var(--or-clair);letter-spacing:.38em;font-size:.82rem;font-weight:600}
+  .noms{font-family:var(--serif);font-weight:500;font-size:clamp(3rem,13vw,5.4rem);line-height:1.02;margin:24px 0}
+  .noms small{display:block;font-size:.42em;letter-spacing:.08em;font-weight:400;opacity:.9;margin-top:4px}
+  .noms .et{display:block;color:var(--or);font-style:italic;font-size:.85em;margin:4px 0 8px}
+  .dates{display:flex;align-items:center;justify-content:center;gap:10px;letter-spacing:.12em;font-weight:500;white-space:nowrap;font-size:clamp(.8rem,3.6vw,1rem)}
+  .dates::before,.dates::after{content:"";width:28px;height:1px;background:var(--or);flex-shrink:0}
+  .ville{letter-spacing:.32em;margin-top:16px;font-weight:500;font-size:.95rem}
+  .devise{font-family:var(--serif);font-style:italic;font-size:1.5rem;margin-top:24px}
+  .defiler{display:inline-block;margin-top:44px;color:var(--or-clair);letter-spacing:.42em;font-size:.76rem;font-weight:600;text-decoration:none}
+  .defiler::after{content:"";display:block;width:1px;height:34px;background:var(--or);margin:14px auto 0;animation:pulse 2s infinite}
+  @keyframes pulse{0%,100%{opacity:.3;transform:scaleY(.6)}50%{opacity:1;transform:scaleY(1)}}
+
+  .coeurs{position:absolute;inset:0;overflow:hidden;pointer-events:none}
+  .coeur{position:absolute;bottom:-40px;color:rgba(190,90,125,.5);animation:monter linear infinite}
+  @keyframes monter{0%{transform:translateY(0) rotate(0);opacity:0}10%{opacity:1}100%{transform:translateY(-110vh) rotate(25deg);opacity:0}}
+
+  /* ---------- Sections ---------- */
+  section{scroll-margin-top:64px}
+  section.bloc{padding:78px 20px;text-align:center}
+  .conteneur{max-width:760px;margin:0 auto}
+  .titre-section{font-family:var(--serif);font-size:clamp(2.1rem,7.5vw,2.9rem);font-weight:500;color:var(--bordeaux);line-height:1.15}
+  .sous-titre{color:var(--or);letter-spacing:.32em;font-size:.74rem;font-weight:600;text-transform:uppercase;margin-bottom:10px}
+  .ornement{display:flex;align-items:center;justify-content:center;gap:10px;margin:18px auto 30px;color:var(--or)}
+  .ornement::before,.ornement::after{content:"";width:50px;height:1px;background:var(--or)}
+  .verset{font-family:var(--serif);font-style:italic;font-size:1.35rem;max-width:560px;margin:0 auto}
+  .verset small{display:block;font-family:var(--sans);font-style:normal;font-size:.76rem;color:var(--gris);margin-top:10px;letter-spacing:.12em}
+  .texte{color:var(--gris);max-width:560px;margin:22px auto 0}
+  .texte strong{color:var(--texte)}
+  .fonce{background:var(--bordeaux);color:#fff;position:relative;overflow:hidden}
+  .fonce .titre-section{color:#fff}
+  .blanc{background:#fff}
+  .sable{background:var(--sable)}
+
+  /* Notre histoire */
+  .histoire{position:relative;margin-top:10px;text-align:left}
+  .histoire::before{content:"";position:absolute;left:19px;top:6px;bottom:6px;width:1px;background:var(--or)}
+  .etape{position:relative;padding:0 0 30px 56px}
+  .etape:last-child{padding-bottom:0}
+  .etape .point{position:absolute;left:8px;top:2px;width:23px;height:23px;border-radius:50%;background:var(--creme);border:1px solid var(--or);
+    display:flex;align-items:center;justify-content:center;color:var(--bordeaux);font-size:.7rem}
+  .etape .annee{color:var(--or);font-weight:600;letter-spacing:.2em;font-size:.75rem}
+  .etape h3{font-family:var(--serif);font-size:1.55rem;font-weight:500;color:var(--bordeaux);line-height:1.2;margin:2px 0 4px}
+  .etape p{color:var(--gris);font-size:.95rem}
+
+  /* Compte à rebours */
+  .rebours{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;max-width:520px;margin:28px auto 0}
+  .case{border:1px solid rgba(232,214,176,.45);padding:18px 2px;background:rgba(255,255,255,.04)}
+  .case b{display:block;font-family:var(--serif);font-size:clamp(2.1rem,9vw,3.1rem);font-weight:500;line-height:1}
+  .case span{font-size:.62rem;letter-spacing:.2em;text-transform:uppercase;color:var(--or-clair)}
+
+  /* Programme */
+  .programme{display:grid;gap:22px}
+  .evenement{background:#fff;border:1px solid #eadfce;padding:32px 22px 26px;position:relative}
+  .evenement::before{content:"";position:absolute;inset:8px;border:1px solid rgba(201,169,110,.3);pointer-events:none}
+  .evenement .icone{width:46px;height:46px;margin:0 auto 10px;color:var(--or)}
+  .evenement .jour{color:var(--or);letter-spacing:.22em;font-size:.74rem;font-weight:600;text-transform:uppercase}
+  .evenement h3{font-family:var(--serif);font-size:1.95rem;font-weight:500;color:var(--bordeaux);margin:4px 0 2px;line-height:1.15}
+  .evenement .heure{font-weight:600;font-size:.95rem}
+  .evenement .lieu{color:var(--texte);font-size:.92rem;margin-top:10px}
+  .evenement .desc{color:var(--gris);font-size:.9rem;margin-top:6px}
+  .evenement .tenue{display:inline-block;margin-top:12px;font-size:.75rem;letter-spacing:.08em;color:var(--bordeaux);background:#f6ecef;padding:5px 10px}
+  .actions{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-top:18px;position:relative}
+  .btn-contour{display:inline-block;border:1px solid var(--bordeaux);color:var(--bordeaux);text-decoration:none;padding:9px 13px;font-size:.78rem;font-weight:600;background:#fff}
+  .btn-contour:hover{background:#f6ecef}
+
+  /* Lieu */
+  .carte-lien{position:relative;display:block;margin-top:22px;border:1px solid #eadfce;overflow:hidden;text-decoration:none}
+  .carte-lien svg{width:100%;height:220px}
+  .carte-lien span{position:absolute;left:50%;bottom:14px;transform:translateX(-50%);background:#fff;color:var(--bordeaux);font-weight:600;font-size:.8rem;padding:8px 14px;box-shadow:0 2px 8px rgba(0,0,0,.12);white-space:nowrap}
+  .onglets{display:flex;justify-content:center;gap:8px;flex-wrap:wrap}
+  .onglets button{font-family:var(--sans);font-size:.8rem;font-weight:600;padding:9px 14px;border:1px solid var(--bordeaux);background:#fff;color:var(--bordeaux);cursor:pointer}
+  .onglets button.actif{background:var(--bordeaux);color:#fff}
+  .lieu-nom{font-family:var(--serif);font-size:1.7rem;color:var(--bordeaux);margin-top:22px}
+  .lieu-infos{color:var(--gris);font-size:.92rem}
+
+  /* Galerie */
+  .galerie{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+  .galerie button{border:0;padding:0;cursor:zoom-in;overflow:hidden;background:#e9dfd3;position:relative}
+  .galerie button:first-child{grid-column:span 2}
+  .galerie button svg{width:100%;height:100%;transition:transform .5s}
+  .galerie button:hover svg{transform:scale(1.04)}
+  .galerie figcaption{position:absolute;left:0;right:0;bottom:0;padding:24px 10px 8px;color:#fff;font-family:var(--serif);font-style:italic;font-size:1.05rem;
+    background:linear-gradient(transparent,rgba(40,20,28,.6))}
+  .visionneuse{position:fixed;inset:0;background:rgba(20,10,14,.94);display:none;flex-direction:column;align-items:center;justify-content:center;z-index:100;padding:20px}
+  .visionneuse.ouverte{display:flex}
+  .v-cadre{width:min(92vw,560px)}
+  .v-cadre svg{width:100%;height:auto;max-height:78vh}
+  .v-legende{color:#fff;font-family:var(--serif);font-style:italic;font-size:1.2rem;margin-top:12px}
+  .visionneuse button{position:absolute;background:none;border:0;color:#fff;font-size:2.4rem;cursor:pointer;padding:10px 16px}
+  .v-fermer{top:8px;right:8px}.v-prec{left:2px;top:50%}.v-suiv{right:2px;top:50%}
+
+  /* Formulaire */
+  form{text-align:left;background:#fff;padding:28px 20px;border:1px solid #eadfce;margin-top:24px}
+  label{display:block;font-size:.8rem;font-weight:600;letter-spacing:.04em;margin:16px 0 6px}
+  input,select,textarea{width:100%;padding:12px;border:1px solid #dccfbe;font-family:var(--sans);font-size:1rem;background:var(--creme);color:var(--texte);border-radius:0}
+  input:focus,select:focus,textarea:focus{outline:2px solid var(--or);border-color:var(--or)}
+  .choix{display:flex;gap:10px}
+  .choix label{flex:1;margin:0;border:1px solid #dccfbe;padding:13px 8px;text-align:center;cursor:pointer;font-weight:500;background:var(--creme)}
+  .choix input{position:absolute;opacity:0;width:1px;height:1px}
+  .choix label:has(input:checked){border-color:var(--bordeaux);background:#f6ecef;color:var(--bordeaux);font-weight:600}
+  .choix label:has(input:focus-visible){outline:2px solid var(--or)}
+  .compteur{text-align:right;font-size:.75rem;color:var(--gris)}
+  form .btn{width:100%;margin-top:22px;font-size:1rem;padding:15px}
+  .note-wa{display:flex;gap:8px;align-items:center;justify-content:center;font-size:.78rem;color:var(--gris);margin-top:10px}
+  .note-wa svg{width:16px;height:16px;flex-shrink:0}
+  .message-envoi{margin-top:16px;padding:14px;text-align:center;display:none;font-size:.95rem}
+  .message-envoi.ok{display:block;background:#eef6ee;color:#2d5a2d}
+  .message-envoi.erreur{display:block;background:#fbeeee;color:#8a2a2a}
+  .message-envoi a{font-weight:600}
+  .cache{position:absolute;left:-9999px}
+
+  /* FAQ */
+  details{background:#fff;border:1px solid #eadfce;text-align:left;margin-bottom:10px}
+  summary{cursor:pointer;padding:16px 18px;font-weight:600;font-size:.92rem;list-style:none;display:flex;justify-content:space-between;gap:10px}
+  summary::-webkit-details-marker{display:none}
+  summary::after{content:"+";color:var(--or);font-size:1.3rem;line-height:1}
+  details[open] summary::after{content:"−"}
+  details p{padding:0 18px 16px;color:var(--gris);font-size:.92rem}
+
+  footer{background:#3c232c;color:#e9dccf;text-align:center;padding:54px 20px 34px}
+  footer .lettres{font-family:var(--serif);font-size:2.6rem}
+  footer .lettres span{color:var(--or);font-style:italic}
+  footer a{color:var(--or-clair);font-size:.85rem}
+  footer .contact{font-size:.85rem;margin:14px 0 26px;opacity:.85}
+
+  .apparition{opacity:0;transform:translateY(24px);transition:opacity .9s, transform .9s}
+  .apparition.visible{opacity:1;transform:none}
+
+  @media (max-width:719px){ .galerie button:last-child:nth-child(4){grid-column:span 2;aspect-ratio:16/10!important} }
+  @media (min-width:720px){
+    .programme{grid-template-columns:1fr 1fr}
+    .galerie{grid-template-columns:repeat(3,1fr)}
+    .galerie button:first-child{grid-column:span 3}
+  }
+  @media (prefers-reduced-motion:reduce){ .coeur,.defiler::after{animation:none} .coeur{display:none} .apparition{opacity:1;transform:none} html{scroll-behavior:auto} }
+</style>
+</head>
+<body>
+
+<!-- ======================= ILLUSTRATIONS (à remplacer par de vraies photos) ======================= -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <linearGradient id="g-or" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f3dfa9"/><stop offset=".45" stop-color="#c9a24f"/><stop offset=".7" stop-color="#f0d68f"/><stop offset="1" stop-color="#a77d2e"/>
+    </linearGradient>
+    <radialGradient id="g-bokeh"><stop offset="0" stop-color="#fff3d6" stop-opacity=".9"/><stop offset="1" stop-color="#fff3d6" stop-opacity="0"/></radialGradient>
+    <linearGradient id="g-couchant" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5b2a3f"/><stop offset=".45" stop-color="#c8605a"/><stop offset=".72" stop-color="#f0a564"/><stop offset="1" stop-color="#f7d394"/>
+    </linearGradient>
+    <linearGradient id="g-satin" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7efe6"/><stop offset=".5" stop-color="#e8d9c8"/><stop offset="1" stop-color="#d9c4ad"/>
+    </linearGradient>
+    <linearGradient id="g-nuit" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2d1a24"/><stop offset="1" stop-color="#5a3040"/>
+    </linearGradient>
+  </defs>
+</svg>
+
+<!-- ======================= EN-TÊTE ======================= -->
+<header id="entete">
+  <a href="#accueil" class="monogramme">
+    <div class="lettres">A<span>&amp;</span>B</div>
+    <div class="date">27.11.26</div>
+  </a>
+  <a href="#rsvp" class="btn">Confirmez votre présence</a>
+</header>
+
+<!-- ======================= ACCUEIL ======================= -->
+<section class="hero" id="accueil">
+  <svg class="hero-fond" viewBox="0 0 400 800" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+    <defs>
+      <linearGradient id="g-hero" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#8f7470"/><stop offset=".5" stop-color="#6b4a50"/><stop offset="1" stop-color="#3d242d"/>
+      </linearGradient>
+    </defs>
+    <rect width="400" height="800" fill="url(#g-hero)"/>
+    <g opacity=".55">
+      <circle cx="60" cy="140" r="70" fill="url(#g-bokeh)"/><circle cx="340" cy="90" r="50" fill="url(#g-bokeh)"/>
+      <circle cx="330" cy="420" r="90" fill="url(#g-bokeh)"/><circle cx="50" cy="560" r="60" fill="url(#g-bokeh)"/>
+      <circle cx="210" cy="300" r="40" fill="url(#g-bokeh)"/>
+    </g>
+    <!-- Voile de mariée en bas -->
+    <path d="M0 640 C80 600 160 640 230 610 C300 580 360 620 400 600 L400 800 L0 800Z" fill="#f7efe6" opacity=".18"/>
+    <path d="M0 690 C90 660 170 700 250 670 C320 645 370 680 400 665 L400 800 L0 800Z" fill="#f7efe6" opacity=".14"/>
+    <!-- Alliances discrètes -->
+    <g transform="translate(200 735)" opacity=".55">
+      <ellipse cx="-16" cy="0" rx="26" ry="27" fill="none" stroke="url(#g-or)" stroke-width="6"/>
+      <ellipse cx="16" cy="4" rx="22" ry="23" fill="none" stroke="url(#g-or)" stroke-width="5"/>
+    </g>
+  </svg>
+  <div class="hero-voile"></div>
+  <div class="coeurs" id="coeurs"></div>
+  <div class="cadre">
+    <p class="surtitre">NOUS NOUS MARIONS</p>
+    <h1 class="noms">Alpha<span class="et">&amp;</span>Bintou</h1>
+    <p class="dates">27 &amp; 28 NOVEMBRE 2026</p>
+    <p class="ville">CONAKRY, GUINÉE</p>
+    <p class="devise">Deux cœurs, deux familles, une même prière.</p>
+    <a href="#invitation" class="defiler">DÉCOUVRIR</a>
+  </div>
+</section>
+
+<!-- ======================= INVITATION ======================= -->
+<section class="bloc" id="invitation">
+  <div class="conteneur apparition">
+    <p class="sous-titre">Bismillah</p>
+    <h2 class="titre-section">Une invitation du cœur</h2>
+    <div class="ornement">♥</div>
+    <p class="verset">« Et parmi Ses signes, Il a créé de vous, pour vous, des épouses pour que vous viviez en tranquillité avec elles, et Il a mis entre vous de l'affection et de la bonté. »<small>SOURATE AR-RUM · 30:21</small></p>
+    <p class="texte">Entourées de leurs proches à Conakry, les familles des mariés ont l'immense joie de vous annoncer l'union de leurs enfants <strong>Alpha</strong> et <strong>Bintou</strong>, et vous prient de les honorer de votre présence.</p>
+  </div>
+</section>
+
+<!-- ======================= COMPTE À REBOURS ======================= -->
+<section class="bloc fonce">
+  <div class="conteneur apparition">
+    <p class="sous-titre" style="color:var(--or-clair)">Plus que</p>
+    <h2 class="titre-section" id="titre-rebours">Cap sur le 27 novembre</h2>
+    <div class="rebours">
+      <div class="case"><b id="j">0</b><span>Jours</span></div>
+      <div class="case"><b id="h">00</b><span>Heures</span></div>
+      <div class="case"><b id="m">00</b><span>Minutes</span></div>
+      <div class="case"><b id="s">00</b><span>Secondes</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= NOTRE HISTOIRE ======================= -->
+<section class="bloc sable" id="histoire">
+  <div class="conteneur apparition" style="max-width:560px">
+    <p class="sous-titre">Le début de notre histoire</p>
+    <h2 class="titre-section">Notre histoire</h2>
+    <div class="ornement">♥</div>
+    <div class="histoire">
+      <div class="etape"><div class="point">♥</div><p class="annee">2021</p><h3>La rencontre</h3><p>Un mariage d'amis à Camayenne, une table partagée, et une conversation qui n'a jamais vraiment fini.</p></div>
+      <div class="etape"><div class="point">♥</div><p class="annee">2024</p><h3>La demande</h3><p>Sur la corniche, au coucher du soleil, Alpha a enfin posé la question. Bintou a dit oui avant la fin de la phrase.</p></div>
+      <div class="etape"><div class="point">♥</div><p class="annee">2026</p><h3>Le « oui » devant Dieu et les familles</h3><p>Et maintenant, nous voulons vivre ce moment avec vous.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= PROGRAMME ======================= -->
+<section class="bloc" id="programme">
+  <div class="conteneur apparition">
+    <p class="sous-titre">Le programme</p>
+    <h2 class="titre-section">Deux jours, trois moments</h2>
+    <div class="ornement">♥</div>
+    <div class="programme" id="liste-evenements"></div>
+  </div>
+</section>
+
+<!-- ======================= LIEUX ======================= -->
+<section class="bloc blanc" id="lieux">
+  <div class="conteneur apparition">
+    <p class="sous-titre">Comment nous rejoindre</p>
+    <h2 class="titre-section">Les lieux</h2>
+    <div class="ornement">♥</div>
+    <div class="onglets" id="onglets"></div>
+    <p class="lieu-nom" id="lieu-nom"></p>
+    <p class="lieu-infos" id="lieu-infos"></p>
+    <div class="actions" id="lieu-actions"></div>
+    <a class="carte-lien" id="carte" target="_blank" rel="noopener" aria-label="Ouvrir le lieu dans Google Maps">
+      <svg viewBox="0 0 600 260" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+        <rect width="600" height="260" fill="#efe6da"/>
+        <path d="M0 200 C120 170 200 230 320 200 C430 172 520 210 600 190 L600 260 L0 260Z" fill="#cfe0e6"/>
+        <g stroke="#fff" stroke-width="10" fill="none" stroke-linecap="round"><path d="M-10 60 C150 90 300 40 610 80"/><path d="M180 -10 C200 80 230 160 260 270"/><path d="M420 -10 C400 70 410 140 450 270"/></g>
+        <g stroke="#e2d5c4" stroke-width="4" fill="none"><path d="M0 130 H600"/><path d="M90 0 V200"/><path d="M520 0 V200"/></g>
+        <g transform="translate(300 118)"><circle r="30" fill="#702D45" opacity=".15"/><path d="M0 -42 C-20 -42 -32 -27 -32 -12 C-32 10 0 34 0 34 C0 34 32 10 32 -12 C32 -27 20 -42 0 -42Z" fill="#702D45"/><circle cy="-13" r="11" fill="#fff"/></g>
+      </svg>
+      <span>Toucher pour ouvrir la carte</span>
+    </a>
+  </div>
+</section>
+
+<!-- ======================= GALERIE ======================= -->
+<section class="bloc" id="galerie">
+  <div class="conteneur apparition">
+    <p class="sous-titre">Galerie</p>
+    <h2 class="titre-section">Nos plus beaux instants</h2>
+    <div class="ornement">♥</div>
+    <div class="galerie" id="grille-galerie">
+      <button type="button" class="photo" data-legende="La corniche, le soir de la demande" aria-label="Agrandir : La corniche, le soir de la demande" style="aspect-ratio:16/10"><svg viewBox="0 0 900 560" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Le couple au coucher du soleil">
+    <rect width="900" height="560" fill="url(#g-couchant)"/>
+    <circle cx="450" cy="395" r="120" fill="#ffe1a3" opacity=".85"/>
+    <circle cx="450" cy="395" r="190" fill="#ffd28a" opacity=".18"/>
+    <g fill="#ffeccc" opacity=".35"><circle cx="120" cy="120" r="2"/><circle cx="760" cy="90" r="2.5"/><circle cx="640" cy="170" r="1.6"/><circle cx="240" cy="200" r="1.8"/></g>
+    <!-- Palmiers -->
+    <g fill="#3a1c28" opacity=".9">
+      <path d="M95 560 C105 430 118 330 132 250 L140 250 C130 340 122 440 118 560Z"/>
+      <path d="M136 250 C95 225 55 235 25 262 C70 240 105 245 136 258Z M136 250 C170 210 215 205 255 220 C210 222 175 235 138 258Z M136 250 C120 205 92 180 55 175 C95 195 117 222 134 256Z M136 250 C165 236 205 250 232 285 C200 262 170 255 138 256Z M136 250 C150 205 175 185 205 178 C178 200 160 225 140 255Z"/>
+      <path d="M800 560 C792 450 782 370 770 300 L777 300 C790 370 800 450 812 560Z"/>
+      <path d="M773 300 C740 282 705 290 680 312 C715 295 745 298 774 306Z M773 300 C805 268 845 266 880 282 C842 282 810 292 775 306Z M773 300 C760 262 735 242 702 240 C738 256 758 278 772 305Z M773 300 C800 290 835 305 860 335 C832 315 805 308 775 305Z"/>
+    </g>
+    <!-- Mer -->
+    <rect y="470" width="900" height="90" fill="#7a3a48" opacity=".55"/>
+    <g stroke="#ffd9a0" stroke-width="2" opacity=".5"><path d="M330 492 H570"/><path d="M370 510 H530"/><path d="M400 528 H500"/></g>
+    <!-- Couple -->
+    <g fill="#2a1420">
+      <!-- Lui : grand boubou -->
+      <circle cx="402" cy="262" r="21"/>
+      <path d="M392 240 Q402 226 413 240 L414 250 L390 250Z"/>
+      <path d="M402 284 C372 290 352 318 344 360 L334 470 L470 470 L462 360 C458 318 432 290 402 284Z"/>
+      <!-- Elle : foulard et robe -->
+      <path d="M482 252 C478 228 500 218 516 228 C530 236 530 262 520 272 C512 280 496 282 488 276Z"/>
+      <path d="M478 250 C470 230 486 212 508 214 C526 216 536 232 532 250 C540 240 538 222 520 210 C500 200 476 212 474 236Z"/>
+      <path d="M502 284 C482 288 470 304 466 330 L456 380 C450 410 436 440 418 470 L590 470 C574 440 560 410 552 378 L540 330 C536 304 524 288 502 284Z"/>
+      <!-- Mains jointes -->
+      <path d="M455 348 C465 342 478 342 486 350 L482 358 C474 352 464 352 456 356Z"/>
+    </g>
+  </svg><figcaption>La corniche, le soir de la demande</figcaption></button>
+      <button type="button" class="photo" data-legende="Nos alliances" aria-label="Agrandir : Nos alliances" style="aspect-ratio:4/5"><svg viewBox="0 0 600 750" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Les alliances sur un coussin de satin">
+    <rect width="600" height="750" fill="url(#g-satin)"/>
+    <g opacity=".7">
+      <circle cx="90" cy="110" r="70" fill="url(#g-bokeh)"/><circle cx="510" cy="160" r="90" fill="url(#g-bokeh)"/>
+      <circle cx="470" cy="640" r="70" fill="url(#g-bokeh)"/><circle cx="120" cy="600" r="50" fill="url(#g-bokeh)"/>
+    </g>
+    <path d="M60 470 C160 410 440 410 540 470 C560 560 520 640 300 650 C80 640 40 560 60 470Z" fill="#702D45"/>
+    <path d="M80 478 C180 428 420 428 520 478" stroke="#8d3d59" stroke-width="10" fill="none" opacity=".6"/>
+    <g fill="#f2c9d4" opacity=".9">
+      <ellipse cx="140" cy="520" rx="16" ry="9" transform="rotate(-25 140 520)"/>
+      <ellipse cx="455" cy="540" rx="14" ry="8" transform="rotate(30 455 540)"/>
+      <ellipse cx="410" cy="600" rx="12" ry="7" transform="rotate(-10 410 600)"/>
+      <ellipse cx="190" cy="595" rx="11" ry="6" transform="rotate(15 190 595)"/>
+    </g>
+    <!-- Alliances -->
+    <ellipse cx="255" cy="420" rx="92" ry="98" fill="none" stroke="url(#g-or)" stroke-width="24"/>
+    <ellipse cx="350" cy="440" rx="80" ry="86" fill="none" stroke="url(#g-or)" stroke-width="19"/>
+    <path d="M182 360 A92 98 0 0 1 270 323" stroke="#fff8e0" stroke-width="5" fill="none" opacity=".8" stroke-linecap="round"/>
+    <path d="M290 385 A80 86 0 0 1 360 355" stroke="#fff8e0" stroke-width="4" fill="none" opacity=".8" stroke-linecap="round"/>
+    <!-- Diamant -->
+    <path d="M340 342 L356 326 L372 342 L356 364Z" fill="#ffffff" stroke="#d9d4e8" stroke-width="2"/>
+    <g stroke="#fff" stroke-width="2" opacity=".9"><path d="M356 308 V318"/><path d="M380 330 H390"/><path d="M324 330 H334"/></g>
+  </svg><figcaption>Nos alliances</figcaption></button>
+      <button type="button" class="photo" data-legende="Les couleurs du jour J" aria-label="Agrandir : Les couleurs du jour J" style="aspect-ratio:4/5"><svg viewBox="0 0 600 750" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Le bouquet de la mariée">
+    <rect width="600" height="750" fill="#efe3d6"/>
+    <g opacity=".6"><circle cx="500" cy="100" r="90" fill="url(#g-bokeh)"/><circle cx="80" cy="260" r="60" fill="url(#g-bokeh)"/></g>
+    <!-- Tiges et ruban -->
+    <g stroke="#5f7a4a" stroke-width="9" stroke-linecap="round">
+      <path d="M300 420 L262 700"/><path d="M300 420 L300 710"/><path d="M300 420 L338 700"/><path d="M300 420 L282 705"/><path d="M300 420 L320 705"/>
+    </g>
+    <path d="M258 540 C280 525 320 525 342 540 L346 600 C320 590 280 590 254 600Z" fill="#C9A96E"/>
+    <path d="M300 575 C270 610 250 640 240 680 L262 672 C272 640 286 612 300 590Z M300 575 C330 610 350 640 360 680 L338 672 C328 640 314 612 300 590Z" fill="#b8955a"/>
+    <!-- Feuillage -->
+    <g fill="#6f8a58">
+      <ellipse cx="180" cy="380" rx="60" ry="22" transform="rotate(-30 180 380)"/>
+      <ellipse cx="425" cy="385" rx="60" ry="22" transform="rotate(30 425 385)"/>
+      <ellipse cx="205" cy="455" rx="50" ry="18" transform="rotate(20 205 455)"/>
+      <ellipse cx="400" cy="455" rx="50" ry="18" transform="rotate(-20 400 455)"/>
+    </g>
+    <!-- Fleurs : pivoines / roses -->
+    <g>
+      <g transform="translate(300 300)"><circle r="78" fill="#f6dfe3"/><circle r="58" fill="#efc4cd"/><circle r="38" fill="#e3a3b2"/><path d="M-18 -6 C-10 -26 14 -26 20 -6 C10 -14 -6 -14 -18 -6Z" fill="#c97c90"/><circle r="12" fill="#c97c90"/></g>
+      <g transform="translate(205 335)"><circle r="56" fill="#fffaf5"/><circle r="40" fill="#f3e8dc"/><circle r="24" fill="#e8d6c2"/><circle r="9" fill="#d4bc9f"/></g>
+      <g transform="translate(398 338)"><circle r="56" fill="#fffaf5"/><circle r="40" fill="#f3e8dc"/><circle r="24" fill="#e8d6c2"/><circle r="9" fill="#d4bc9f"/></g>
+      <g transform="translate(250 410)"><circle r="42" fill="#8a3550"/><circle r="30" fill="#a4466a"/><circle r="17" fill="#702D45"/></g>
+      <g transform="translate(352 412)"><circle r="42" fill="#8a3550"/><circle r="30" fill="#a4466a"/><circle r="17" fill="#702D45"/></g>
+      <g transform="translate(300 215)"><circle r="40" fill="#fffaf5"/><circle r="27" fill="#f1e2d0"/><circle r="12" fill="#ddc6aa"/></g>
+    </g>
+    <g fill="#fff"><circle cx="160" cy="300" r="7"/><circle cx="445" cy="290" r="7"/><circle cx="300" cy="455" r="8"/><circle cx="215" cy="250" r="6"/><circle cx="388" cy="250" r="6"/></g>
+  </svg><figcaption>Les couleurs du jour J</figcaption></button>
+      <button type="button" class="photo" data-legende="La salle qui nous attend" aria-label="Agrandir : La salle qui nous attend" style="aspect-ratio:4/5"><svg viewBox="0 0 600 750" preserveAspectRatio="xMidYMid slice" role="img" aria-label="La salle de réception illuminée">
+    <rect width="600" height="750" fill="url(#g-nuit)"/>
+    <!-- Guirlandes lumineuses -->
+    <g fill="none" stroke="#c9a96e" stroke-width="1.5" opacity=".7">
+      <path d="M0 90 Q150 170 300 90 T600 90"/><path d="M0 170 Q150 250 300 170 T600 170"/>
+    </g>
+    <g fill="#ffe3a6">
+      <circle cx="40" cy="108" r="5"/><circle cx="95" cy="125" r="5"/><circle cx="150" cy="130" r="5"/><circle cx="205" cy="124" r="5"/><circle cx="260" cy="106" r="5"/>
+      <circle cx="340" cy="106" r="5"/><circle cx="395" cy="124" r="5"/><circle cx="450" cy="130" r="5"/><circle cx="505" cy="125" r="5"/><circle cx="560" cy="108" r="5"/>
+      <circle cx="40" cy="188" r="5"/><circle cx="95" cy="205" r="5"/><circle cx="150" cy="210" r="5"/><circle cx="205" cy="204" r="5"/><circle cx="260" cy="186" r="5"/>
+      <circle cx="340" cy="186" r="5"/><circle cx="395" cy="204" r="5"/><circle cx="450" cy="210" r="5"/><circle cx="505" cy="205" r="5"/><circle cx="560" cy="188" r="5"/>
+    </g>
+    <g fill="url(#g-bokeh)" opacity=".5"><circle cx="150" cy="130" r="40"/><circle cx="450" cy="210" r="40"/><circle cx="300" cy="90" r="50"/></g>
+    <!-- Table -->
+    <ellipse cx="300" cy="560" rx="250" ry="60" fill="#f7efe6"/>
+    <path d="M50 560 C50 640 120 700 300 700 C480 700 550 640 550 560 C520 600 420 620 300 620 C180 620 80 600 50 560Z" fill="#e6d6c3"/>
+    <path d="M80 590 C150 620 450 620 520 590" stroke="#C9A96E" stroke-width="5" fill="none"/>
+    <!-- Centre de table -->
+    <rect x="285" y="430" width="30" height="110" fill="url(#g-or)"/>
+    <ellipse cx="300" cy="540" rx="45" ry="10" fill="url(#g-or)"/>
+    <g transform="translate(300 420)"><circle r="46" fill="#a4466a"/><circle cx="-34" cy="12" r="30" fill="#f6dfe3"/><circle cx="34" cy="12" r="30" fill="#f6dfe3"/><circle cy="-22" r="28" fill="#fffaf5"/><circle r="16" fill="#702D45"/></g>
+    <!-- Bougies -->
+    <g>
+      <rect x="160" y="500" width="22" height="50" fill="#fff7ea"/><path d="M171 482 C164 492 165 500 171 502 C177 500 178 492 171 482Z" fill="#ffc861"/>
+      <rect x="418" y="500" width="22" height="50" fill="#fff7ea"/><path d="M429 482 C422 492 423 500 429 502 C435 500 436 492 429 482Z" fill="#ffc861"/>
+      <circle cx="171" cy="492" r="26" fill="url(#g-bokeh)" opacity=".7"/><circle cx="429" cy="492" r="26" fill="url(#g-bokeh)" opacity=".7"/>
+    </g>
+    <!-- Verres -->
+    <g fill="none" stroke="#f3e6d4" stroke-width="3" opacity=".9">
+      <path d="M220 520 L232 520 L230 545 Q226 555 222 545Z"/><path d="M226 553 V572 M218 572 H234"/>
+      <path d="M368 520 L380 520 L378 545 Q374 555 370 545Z"/><path d="M374 553 V572 M366 572 H382"/>
+    </g>
+  </svg><figcaption>La salle qui nous attend</figcaption></button>
+    </div>
+  </div>
+</section>
+<div class="visionneuse" id="visionneuse" role="dialog" aria-modal="true" aria-label="Photo agrandie">
+  <button class="v-fermer" aria-label="Fermer">×</button>
+  <button class="v-prec" aria-label="Photo précédente">←</button>
+  <div class="v-cadre" id="v-cadre"></div>
+  <p class="v-legende" id="v-legende"></p>
+  <button class="v-suiv" aria-label="Photo suivante">→</button>
+</div>
+
+<!-- ======================= RSVP ======================= -->
+<section class="bloc sable" id="rsvp">
+  <div class="conteneur apparition" style="max-width:560px">
+    <p class="sous-titre">RSVP</p>
+    <h2 class="titre-section">Confirmez votre présence</h2>
+    <p class="texte" style="margin-top:8px">Merci de répondre avant le <strong>22 novembre 2026</strong>, pour nous aider à bien vous accueillir.</p>
+
+    <form id="formulaire" novalidate>
+      <label for="nom">Nom complet *</label>
+      <input id="nom" name="nom" required autocomplete="name" placeholder="Ex. : Mariama Sow">
+
+      <label for="telephone">Téléphone (facultatif)</label>
+      <input id="telephone" name="telephone" type="tel" autocomplete="tel" placeholder="+224 6XX XX XX XX">
+
+      <label id="lbl-presence">Serez-vous présent(e) ? *</label>
+      <div class="choix" role="radiogroup" aria-labelledby="lbl-presence">
+        <label><input type="radio" name="presence" value="Oui"><span>Oui, avec joie</span></label>
+        <label><input type="radio" name="presence" value="Non"><span>Non, hélas</span></label>
+      </div>
+
+      <div id="bloc-presence">
+        <label for="evenement">À quel(s) moment(s) ?</label>
+        <select id="evenement" name="evenement"></select>
+
+        <label for="invites">Nombre de personnes (vous compris)</label>
+        <select id="invites" name="invites">
+          <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option>
+        </select>
+      </div>
+
+      <label for="message">Un mot pour les mariés (facultatif)</label>
+      <textarea id="message" name="message" rows="4" maxlength="500" placeholder="Vos vœux, une prière, un souvenir…"></textarea>
+      <div class="compteur"><span id="nb-car">0</span>/500</div>
+
+      <input class="cache" name="site_web" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+      <button type="submit" class="btn" id="bouton-envoi">Envoyer ma réponse</button>
+      <p class="note-wa" id="note-wa">
+        <svg viewBox="0 0 24 24" fill="#25D366" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.4 14.2c-.2.6-1.3 1.2-1.8 1.3-.5 0-1 .2-3.4-.7a11.5 11.5 0 0 1-4.6-4.1c-.3-.5-1-1.5-1-2.8s.7-2 1-2.3c.3-.3.6-.3.8-.3h.6c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .6l-.4.6-.4.5c-.1.2-.3.3-.1.6.2.3.8 1.4 1.8 2.2 1.2 1.1 2.2 1.4 2.5 1.6.3.1.5.1.7-.1l.9-1.1c.2-.3.4-.2.7-.1l2 1c.3.1.5.2.6.3.1.2.1.8-.1 1.4Z"/></svg>
+        Votre confirmation sera aussi envoyée aux mariés sur WhatsApp.
+      </p>
+      <div class="message-envoi" id="retour" role="status" aria-live="polite"></div>
+    </form>
+    <noscript><p class="texte">Le formulaire nécessite JavaScript. Écrivez-nous sur WhatsApp au +224 620 00 00 00.</p></noscript>
+  </div>
+</section>
+
+<!-- ======================= QUESTIONS ======================= -->
+<section class="bloc" id="infos">
+  <div class="conteneur apparition" style="max-width:600px">
+    <p class="sous-titre">Bon à savoir</p>
+    <h2 class="titre-section">Vos questions</h2>
+    <div class="ornement">♥</div>
+    <details><summary>Quelle tenue prévoir ?</summary><p>Pour le religieux : tenue traditionnelle, et voile ou foulard pour les dames à la mosquée. Pour la réception : tenue de soirée, avec une touche de bordeaux ou d'or si vous le souhaitez.</p></details>
+    <details><summary>Les enfants sont-ils les bienvenus ?</summary><p>Oui, bien sûr. Merci simplement de les compter dans le nombre de personnes de votre réponse.</p></details>
+    <details><summary>Je viens de l'étranger, une recommandation ?</summary><p>Prévoyez d'arriver à Conakry au plus tard le 26 novembre. Pour l'hébergement ou un transfert depuis l'aéroport, contactez Mamadou (cousin d'Alpha) au +224 620 00 00 01.</p></details>
+    <details><summary>Comment offrir un cadeau ?</summary><p>Votre présence est notre plus beau cadeau. Pour ceux qui le souhaitent, une urne sera disponible à la réception, et un envoi par Orange Money reste possible auprès de la famille.</p></details>
+  </div>
+</section>
+
+<!-- ======================= CLÔTURE ======================= -->
+<section class="bloc fonce">
+  <div class="conteneur apparition">
+    <p class="verset" style="color:#fff">« Et Nous vous avons créés en couples. »<small style="color:var(--or-clair)">SOURATE AN-NABA · 78:8</small></p>
+    <p class="texte" style="color:#f0e4ea">Nous avons hâte de vous retrouver. Qu'Allah bénisse ce foyer, nos familles et chacun de vous.</p>
+    <p style="font-family:var(--serif);font-style:italic;font-size:1.6rem;margin-top:18px;color:var(--or-clair)">Alpha &amp; Bintou</p>
+  </div>
+</section>
+
+<footer>
+  <div class="lettres">A<span>&amp;</span>B</div>
+  <p style="margin-top:8px;letter-spacing:.22em;font-size:.78rem">27 &amp; 28 NOVEMBRE 2026 · CONAKRY</p>
+  <p class="contact">Une question ? WhatsApp : +224 620 00 00 00</p>
+  <a href="#accueil">↑ Retour en haut</a>
+</footer>
+
+<script>
+/* =====================================================================
+   CONFIGURATION — modifiez ici pour un autre mariage
+   ===================================================================== */
+const CONFIG = {
+  couple: "Alpha & Bintou",
+  dateCible: "2026-11-27T15:00:00Z",           // Conakry = GMT
+  whatsapp: "224620000000",                     // numéro qui reçoit les confirmations (sans + ni espaces)
+  urlFormulaire: "",                            // URL Google Apps Script (Google Sheet). Vide = WhatsApp seulement
+
+  evenements: [
+    { id: "religieux", jour: "Vendredi 27 novembre", titre: "Mariage religieux", heure: "15 h 00 · après la prière",
+      lieu: "Grande Mosquée Fayçal, Camayenne", description: "Célébration de l'union, bénédictions et partage de la noix de cola entre les familles.",
+      tenue: "traditionnelle", debut: "20261127T150000Z", fin: "20261127T180000Z", lieuId: "mosquee", icone: "lune" },
+    { id: "civil", jour: "Samedi 28 novembre", titre: "Mariage civil", heure: "10 h 30",
+      lieu: "Mairie de Dixinn", description: "Échange des consentements devant l'officier d'état civil, puis photos de famille.",
+      tenue: "habillée", debut: "20261128T103000Z", fin: "20261128T123000Z", lieuId: "mairie", icone: "anneaux" },
+    { id: "reception", jour: "Samedi 28 novembre", titre: "Réception & soirée", heure: "19 h 00 jusqu'au bout de la nuit",
+      lieu: "Hôtel Palm Camayenne, salle des banquets", description: "Dîner, animation, danses et surprises. Venez avec votre plus beau sourire !",
+      tenue: "soirée · bordeaux & or", debut: "20261128T190000Z", fin: "20261129T020000Z", lieuId: "salle", icone: "verres" }
+  ],
+
+  lieux: {
+    mosquee: { nom: "Grande Mosquée Fayçal", infos: "Camayenne, Dixinn — Conakry", lat: 9.53318, lng: -13.68411 },
+    mairie:  { nom: "Mairie de Dixinn",      infos: "Rue de Madina, près du stade du 28-Septembre — Conakry", lat: 9.54706, lng: -13.67250 },
+    salle:   { nom: "Hôtel Palm Camayenne",  infos: "Corniche Nord, Camayenne — Conakry", lat: 9.53556, lng: -13.68858 }
+  },
+
+};
+
+/* ---------- Utilitaires ---------- */
+const $ = s => document.querySelector(s);
+const el = (tag, cls, txt) => { const e = document.createElement(tag); if (cls) e.className = cls; if (txt != null) e.textContent = txt; return e; };
+const ICONES = {
+  lune: '<svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M30 8a16 16 0 1 0 10 28A14 14 0 0 1 30 8Z"/><path d="M36 12l1.2 2.6 2.8.4-2 2 .5 2.8-2.5-1.3-2.5 1.3.5-2.8-2-2 2.8-.4Z"/></svg>',
+  anneaux: '<svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="19" cy="28" r="11"/><circle cx="30" cy="28" r="11"/><path d="M27 12l3-4 3 4-3 3Z"/></svg>',
+  verres: '<svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 8h10l-1 12a4 4 0 0 1-8 0Z"/><path d="M17 24v14M12 38h10"/><path d="M26 8h10l-1 12a4 4 0 0 1-8 0Z"/><path d="M31 24v14M26 38h10"/><path d="M23 6l2-3M24 10h3"/></svg>'
+};
+const lienMaps  = l => `https://www.google.com/maps/dir/?api=1&destination=${l.lat},${l.lng}`;
+const lienWaze  = l => `https://waze.com/ul?ll=${l.lat},${l.lng}&navigate=yes`;
+const lienAgenda = ev => {
+  const l = CONFIG.lieux[ev.lieuId];
+  const p = new URLSearchParams({ action: "TEMPLATE", text: `${ev.titre} — ${CONFIG.couple}`, dates: `${ev.debut}/${ev.fin}`,
+    details: ev.description, location: `${l.nom}, ${l.infos}` });
+  return `https://calendar.google.com/calendar/render?${p}`;
+};
+
+/* ---------- Fond d'accueil ---------- */
+
+/* ---------- Programme ---------- */
+const selectEv = $("#evenement");
+if (CONFIG.evenements.length > 1) selectEv.add(new Option("Tous les moments", "Tous"));
+CONFIG.evenements.forEach(ev => {
+  const c = el("article", "evenement");
+  const ic = el("div", "icone"); ic.innerHTML = ICONES[ev.icone] || ""; c.append(ic);
+  c.append(el("p", "jour", ev.jour), el("h3", null, ev.titre), el("p", "heure", ev.heure),
+           el("p", "lieu", "📍 " + ev.lieu), el("p", "desc", ev.description));
+  if (ev.tenue) c.append(el("span", "tenue", "Tenue : " + ev.tenue));
+  const a = el("div", "actions");
+  const l = CONFIG.lieux[ev.lieuId];
+  [["Itinéraire", lienMaps(l)], ["Ajouter à l'agenda", lienAgenda(ev)]].forEach(([t, h]) => {
+    const b = el("a", "btn-contour", t); b.href = h; b.target = "_blank"; b.rel = "noopener"; a.append(b);
+  });
+  c.append(a);
+  $("#liste-evenements").append(c);
+  selectEv.add(new Option(ev.titre, ev.titre));
+});
+
+/* ---------- Lieux (onglets + carte) ---------- */
+function afficherLieu(id){
+  const l = CONFIG.lieux[id];
+  $("#lieu-nom").textContent = l.nom;
+  $("#lieu-infos").textContent = `${l.infos} · GPS : ${l.lat.toFixed(4)}, ${l.lng.toFixed(4)}`;
+  $("#carte").href = lienMaps(l);
+  const a = $("#lieu-actions"); a.innerHTML = "";
+  [["Google Maps", lienMaps(l)], ["Waze", lienWaze(l)]].forEach(([t, h]) => {
+    const b = el("a", "btn-contour", t); b.href = h; b.target = "_blank"; b.rel = "noopener"; a.append(b);
+  });
+  document.querySelectorAll("#onglets button").forEach(b => b.classList.toggle("actif", b.dataset.id === id));
+}
+Object.entries(CONFIG.lieux).forEach(([id, l]) => {
+  const b = el("button", null, l.nom); b.type = "button"; b.dataset.id = id; b.onclick = () => afficherLieu(id);
+  $("#onglets").append(b);
+});
+afficherLieu(Object.keys(CONFIG.lieux)[0]);
+
+/* ---------- Compte à rebours ---------- */
+const cible = new Date(CONFIG.dateCible).getTime();
+const deux = n => String(n).padStart(2, "0");
+function majRebours(){
+  let r = cible - Date.now();
+  if (r <= 0) { $("#titre-rebours").textContent = "C'est le grand jour !"; r = 0; }
+  $("#j").textContent = Math.floor(r / 864e5);
+  $("#h").textContent = deux(Math.floor(r % 864e5 / 36e5));
+  $("#m").textContent = deux(Math.floor(r % 36e5 / 6e4));
+  $("#s").textContent = deux(Math.floor(r % 6e4 / 1e3));
+}
+majRebours(); setInterval(majRebours, 1000);
+
+/* ---------- Galerie + visionneuse ---------- */
+const vis = $("#visionneuse"); let idx = 0;
+const boutonsPhotos = [...document.querySelectorAll("#grille-galerie .photo")];
+boutonsPhotos.forEach((b, i) => b.onclick = () => ouvrir(i));
+function ouvrir(i){
+  idx = (i + boutonsPhotos.length) % boutonsPhotos.length;
+  const b = boutonsPhotos[idx];
+  $("#v-cadre").replaceChildren(b.querySelector("svg, img").cloneNode(true));
+  $("#v-legende").textContent = b.dataset.legende;
+  vis.classList.add("ouverte"); document.body.style.overflow = "hidden";
+}
+function fermer(){ vis.classList.remove("ouverte"); document.body.style.overflow = ""; }
+vis.querySelector(".v-fermer").onclick = fermer;
+vis.querySelector(".v-prec").onclick = e => { e.stopPropagation(); ouvrir(idx - 1); };
+vis.querySelector(".v-suiv").onclick = e => { e.stopPropagation(); ouvrir(idx + 1); };
+vis.onclick = e => { if (e.target === vis) fermer(); };
+document.addEventListener("keydown", e => {
+  if (!vis.classList.contains("ouverte")) return;
+  if (e.key === "Escape") fermer();
+  if (e.key === "ArrowLeft") ouvrir(idx - 1);
+  if (e.key === "ArrowRight") ouvrir(idx + 1);
+});
+let x0 = null;
+vis.addEventListener("touchstart", e => x0 = e.touches[0].clientX, { passive: true });
+vis.addEventListener("touchend", e => { if (x0 == null) return; const d = e.changedTouches[0].clientX - x0; if (Math.abs(d) > 50) ouvrir(idx + (d < 0 ? 1 : -1)); x0 = null; });
+
+/* ---------- Formulaire : Google Sheet + WhatsApp ---------- */
+const form = $("#formulaire"), retour = $("#retour"), msg = $("#message");
+if (!CONFIG.whatsapp) $("#note-wa").style.display = "none";
+msg.addEventListener("input", () => $("#nb-car").textContent = msg.value.length);
+form.querySelectorAll('input[name="presence"]').forEach(r => r.addEventListener("change", () => {
+  $("#bloc-presence").style.display = form.presence.value === "Non" ? "none" : "block";
+}));
+
+function texteWhatsApp(d){
+  const lignes = [`💌 *Confirmation — mariage ${CONFIG.couple}*`, "", `👤 ${d.get("nom")}`];
+  if (d.get("telephone")) lignes.push(`📞 ${d.get("telephone")}`);
+  if (d.get("presence") === "Oui") {
+    lignes.push(`✅ Présent(e) · ${d.get("invites")} personne(s)`, `🗓️ ${d.get("evenement")}`);
+  } else {
+    lignes.push("❌ Ne pourra pas venir");
+  }
+  if (d.get("message")) lignes.push("", `💬 « ${d.get("message")} »`);
+  return lignes.join("\n");
+}
+
+form.addEventListener("submit", async e => {
+  e.preventDefault();
+  retour.className = "message-envoi"; retour.textContent = "";
+  const d = new FormData(form);
+  if (d.get("site_web")) return;
+  if (!d.get("nom").trim() || !d.get("presence")) {
+    retour.textContent = "Merci d'indiquer votre nom et si vous serez présent(e).";
+    retour.classList.add("erreur"); return;
+  }
+  if (d.get("presence") === "Non") { d.set("evenement", "-"); d.set("invites", "0"); }
+  d.delete("site_web");
+
+  const bouton = $("#bouton-envoi");
+  bouton.disabled = true; bouton.textContent = "Envoi en cours…";
+
+  // 1) Enregistrement dans le Google Sheet (si configuré)
+  let enregistre = false;
+  if (CONFIG.urlFormulaire) {
+    try { await fetch(CONFIG.urlFormulaire, { method: "POST", mode: "no-cors", body: new URLSearchParams(d) }); enregistre = true; }
+    catch (err) { console.error(err); }
+  }
+
+  // 2) Message WhatsApp pré-rempli vers les mariés
+  const lienWA = CONFIG.whatsapp ? `https://wa.me/${CONFIG.whatsapp}?text=${encodeURIComponent(texteWhatsApp(d))}` : null;
+
+  if (!enregistre && !lienWA) {
+    retour.textContent = "L'envoi n'a pas fonctionné, merci de réessayer.";
+    retour.classList.add("erreur");
+  } else {
+    const merci = d.get("presence") === "Oui" ? "Merci ! Nous avons hâte de vous voir 🤍" : "Merci pour votre réponse, vous nous manquerez 🤍";
+    retour.textContent = merci + " ";
+    if (lienWA) {
+      const a = el("a", null, enregistre ? "Prévenir aussi les mariés sur WhatsApp" : "Finaliser l'envoi sur WhatsApp");
+      a.href = lienWA; a.target = "_blank"; a.rel = "noopener";
+      retour.append(el("br"), a);
+      try { window.open(lienWA, "_blank"); } catch (_) {}
+    }
+    retour.classList.add("ok");
+    form.reset(); $("#nb-car").textContent = "0"; $("#bloc-presence").style.display = "block";
+  }
+  bouton.disabled = false; bouton.textContent = "Envoyer ma réponse";
+});
+
+/* ---------- Effets ---------- */
+const entete = $("#entete");
+addEventListener("scroll", () => entete.classList.toggle("scrolled", scrollY > 40), { passive: true });
+const obs = new IntersectionObserver(es => es.forEach(x => { if (x.isIntersecting) { x.target.classList.add("visible"); obs.unobserve(x.target); } }), { threshold: .12 });
+document.querySelectorAll(".apparition").forEach(n => obs.observe(n));
+for (let i = 0; i < 14; i++) {
+  const c = el("span", "coeur", "♥");
+  c.style.left = Math.random() * 100 + "%";
+  c.style.fontSize = 12 + Math.random() * 22 + "px";
+  c.style.animationDuration = 9 + Math.random() * 10 + "s";
+  c.style.animationDelay = -Math.random() * 15 + "s";
+  $("#coeurs").append(c);
+}
+</script>
+</body>
+</html>
